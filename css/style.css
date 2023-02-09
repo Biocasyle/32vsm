@@ -30,7 +30,7 @@ header {
     background-image: url(../image/menu_logo.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color:var(--cor4);
+    background-color: var(--cor4);
     min-height: 320px;
     width: 100%;
     padding-top: 30px;
@@ -38,7 +38,7 @@ header {
     justify-content: center;
 }
 
-.legenda{
+.legenda {
     margin-top: 200px;
     background-color: rgba(128, 128, 128, 0.877);
     border-radius: 30px;
@@ -66,7 +66,7 @@ header {
 
 nav {
     background-color: var(--cor4);
-    width:auto;
+    width: auto;
     padding: 10px;
     text-align: center;
 }
@@ -144,7 +144,7 @@ aside {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 
-aside h2{
+aside h2 {
     background-color: var(--cor1);
 }
 
@@ -162,7 +162,24 @@ aside>ul {
     columns: 2;
 }
 
-aside p {
+.mapa{
+    background-color: white;
+}
+
+div.mapa {
+    margin: 0px -20px 30px -20px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+div.mapa > iframe{
+margin: 0px 20px 0px 20px;
+}
+
+.mapa > p {
+
 }
 
 footer {
@@ -182,5 +199,19 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
+
+}
+
+/*Pagina de Fotos*/
+
+div#fotos > ul{
+    columns: 3;
+    list-style-position: inside;
+}
+
+div#fotos li {
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
 
 }
